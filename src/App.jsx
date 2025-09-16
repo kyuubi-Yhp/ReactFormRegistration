@@ -16,7 +16,7 @@ function App() {
   }
 
   function handelBtnSendForm() {
-    setForm(...form, user)
+    setForm([...form, user])
   }
   console.log(form)
 
