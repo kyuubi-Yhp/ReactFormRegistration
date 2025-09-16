@@ -1,0 +1,17 @@
+.Header__container {}
+
+.Header__title {
+  /* color: white; */
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+}
+
+.Header__text {
+  color:#7F7F7F;
+  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+
+}
