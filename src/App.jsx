@@ -65,7 +65,7 @@ function App() {
   console.log(form)
 
   return (
-    <div>
+    <div className='div__parent'>
       <ParticlesBackground />
       <div className='container__app'>
         <Header

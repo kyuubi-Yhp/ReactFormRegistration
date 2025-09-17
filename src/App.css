@@ -1,4 +1,9 @@
+html {
+  background-color: #e78b8b63;
+}
+
 .container__app {
+  backdrop-filter: blur(1px);
   position: relative;       /* поверх частиц */
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.35); /* полупрозрачная форма */
