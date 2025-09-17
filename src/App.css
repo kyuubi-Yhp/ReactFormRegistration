@@ -1,0 +1,48 @@
+.container__app {
+  position: relative;       /* поверх частиц */
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.35); /* полупрозрачная форма */
+  width: 480px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* canvas фон */
+.canvas__bg {
+  position: fixed;
+  inset: 0;           /* top:0; right:0; bottom:0; left:0 */
+  width: 100%;
+  height: 100%;
+  z-index: 0;         /* фон */
+  pointer-events: none; /* клики проходят сквозь canvas */
+  background: transparent;
+}
+p {
+    margin: 0 0 15px 0;
+  color: #4c4c4c;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+input {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 0 0 0 10px;
+  width: 350px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 9px;
+  border: 2px solid #9a9a9a4e;
+}
+input:focus {
+    background-color: #fd9ab345;
+    border: 3px solid #fd9ab345;
+}
+
+input::placeholder {
+  color: #bbbbbb;      
+  font-size: 16px; 
+}

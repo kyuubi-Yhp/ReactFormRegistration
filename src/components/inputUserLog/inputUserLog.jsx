@@ -1,8 +1,8 @@
-
+import './InputUserLog.css'
 
 function InputUserLog(props) {
   return (
-    <div className="Input__container">
+    <div className="Input__User-container">
       <input type="text"
         placeholder="Имя"
         name="name"

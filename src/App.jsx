@@ -1,3 +1,4 @@
+import ParticlesBackground from './components/ParticlesBackground/ParticlesBackground'
 import Header from './components/header/header'
 import InputUserLog from './components/inputUserLog/inputUserLog'
 import InputUserPassword from './components/inputUserPassword/inputUserPasswor'
@@ -50,7 +51,7 @@ function App() {
     setError(false)
     setErrorPassword(false)
     setForm([...form, user])
-    // alert('форма отправлена')
+    alert('форма отправлена')
     setUser({
       name: '',
       surname: '',
@@ -65,6 +66,7 @@ function App() {
 
   return (
     <div>
+      <ParticlesBackground />
       <div className='container__app'>
         <Header
           title='создание аккаунта'

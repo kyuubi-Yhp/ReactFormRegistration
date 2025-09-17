@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom/client'
-// import './resetstyle.css'
+import './resetstyle.css'
 import './index.css'
 import App from './App.jsx'
 

@@ -1,17 +1,14 @@
-.Header__container {}
+.Header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
 
 .Header__title {
-  /* color: white; */
+  margin: 0 0 15px 0;
   font-weight: 700;
   font-size: 32px;
   line-height: 100%;
 }
 
-.Header__text {
-  color:#7F7F7F;
-  
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 100%;
-
-}

@@ -1,0 +1,12 @@
+.btn__send {
+  margin: 0 0 0 236px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  background-color: transparent;
+  border-radius: 9px;
+  border: 2px solid #9a9a9a4e;
+}
+.btn__send:hover {
+background-color: #fd9ab345;
+}

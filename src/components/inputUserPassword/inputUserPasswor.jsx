@@ -1,8 +1,8 @@
-
+import './InputUserPassword.css'
 
 function InputUserPassword(props) {
   return (
-    <div>
+    <div className='Input__passw-container'>
       <input
         type="text"
         placeholder="Пароль"
@@ -16,12 +16,13 @@ function InputUserPassword(props) {
         name="returnPassword"
         value={props.value.returnPassword}
         onChange={props.onChange} />
-      <input 
-      type="checkbox" 
-      name="checkbox"
-      checked={props.value.checkbox}
-      onChange={props.onChangeCheck}
-      />
+      <input
+        className='input__pass-check'
+        type="checkbox"
+        name="checkbox"
+        checked={props.value.checkbox}
+        onChange={props.onChangeCheck}
+      /> <p>Подтвердить пароль ➜</p>
     </div>
   )
 }

@@ -1,8 +1,8 @@
-
+import './IsErrorPass.css'
 
 function IsErrorPass() {
   return (
-    <p>пароль не совпадает или не стоит галочка</p>
+    <p className='error__pass'>пароль не совпадает или не стоит галочка</p>
   )
 } 
 

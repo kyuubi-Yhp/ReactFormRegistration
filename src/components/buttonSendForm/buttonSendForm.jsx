@@ -1,8 +1,8 @@
-
+import './ButtonSenForm.css'
 
 function ButtonSenForm(props) {
   return (
-    <button
+    <button className='btn__send'
     onClick={props.onClick}
     >Отправить форму</button>
   )
