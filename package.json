@@ -2,7 +2,7 @@
   "name": "reactformregistration",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kyuubi-Yhp.github.io/ReactFormRegistration/",
+  "homepage": "https://kyuubi-Yhp.github.io/ReactFormRegistration0.2.0/",
   "type": "module",
   "scripts": {
     "dev": "vite",
